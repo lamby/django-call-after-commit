@@ -58,7 +58,7 @@ Instead of calling your method using::
 
 use::
 
-    from django_call_after_commit.utils import call_after_commit
+    from django_call_after_commit import call_after_commit
 
     call_after_commit(some_method, arg1, arg2)
 
@@ -92,3 +92,5 @@ File a bug
 
    `See more open source projects from Thread.com <http://dev.thread.com/>`_
 """
+
+from .utils import call_after_commit
